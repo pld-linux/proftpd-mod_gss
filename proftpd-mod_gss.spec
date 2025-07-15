@@ -27,7 +27,7 @@ as described in RFC2228.
 
 %prep
 %setup -q -n %{mod_name}-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %configure \
